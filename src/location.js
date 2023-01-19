@@ -1,19 +1,14 @@
 export function location(){
     const content = document.getElementById('content');
+    const nav = document.getElementById('header-nav--list')
 
-    content.innerHTML = '';
+
+    content.innerHTML ='';
+
     content.innerHTML =`
-    <nav id="header-nav--container">
-        <ul id="header-nav--list">
-            <li><a href="#about"><img src="https://www.grossonapoletano.com/wp-content/themes/grossonapoletano/img/icons/icon-menu-white.svg" alt="Menu"> Menu</a></li>
-            <li><a href="#home"><img src="https://www.grossonapoletano.com/wp-content/themes/grossonapoletano/img/logos/logo-white.svg" alt="Logo" id="logo"></a></li>
-            <li><a href="#services">Location</a></li>
-        </ul>
-        <div id="location-title">
-            <h1>_Restaurants</h1>
-    </nav>
+    <div id="location-title"><h1>_Restaurants</h1></div>
     <main>
-        <div id="location">
+        <div id="location-container">
             <div id="location-list--container">
                <h2>_Near You</h2>
                 <section class="location-list--section">
